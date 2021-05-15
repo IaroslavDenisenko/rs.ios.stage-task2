@@ -2,6 +2,6 @@
 
 @interface IPFormatConverter : NSObject
 
-- (NSString *)ipFormatConverter:(NSArray *)numbersArray;
+- (NSString *)ipFormatConverter:(NSArray<NSNumber *> *)numbersArray;
 
 @end
